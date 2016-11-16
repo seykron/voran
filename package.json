@@ -1,0 +1,28 @@
+{
+  "name": "voran",
+  "version": "1.0.0",
+  "description": "Voran, a little dragon slightly smarter than a bot",
+  "main": "index.js",
+  "bin": "./voran",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "voran",
+    "telegram",
+    "bot"
+  ],
+  "author": "seykron <seykron@riseup.net>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "ascii": "^1.0.0",
+    "co": "^4.6.0",
+    "debug": "^2.3.2",
+    "mkdirp": "^0.5.1",
+    "natural-brain": "^0.2.3",
+    "node-uuid": "^1.4.7",
+    "request": "^2.78.0",
+    "telebot": "^1.0.6",
+    "terminal-kit": "^0.25.2"
+  }
+}
