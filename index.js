@@ -17,11 +17,10 @@ const voranDomains = require("./lib/places")({
 });
 const terminal = require("./lib/terminal")(voran);
 
-co(function* () {
+(async function () {
   DIRS.forEach(dir => mkdirp.sync(dir));
 
-  voran.wakeUp();
-  yield voran.arrive(voranDomains);
+  await voran.arrive(voranDomains);
 
   terminal.start();
-});
+}());
